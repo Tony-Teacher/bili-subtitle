@@ -1,0 +1,18 @@
+{
+  "name": "ss",
+  "version": "1.0.0",
+  "description": "s",
+  "main": "s",
+  "scripts": {
+    "test": "s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "s"
+  },
+  "author": "s",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
