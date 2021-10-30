@@ -11,6 +11,7 @@ Only for BiliBili video subtitle crawling, and the exported subtitles are in 'SR
 3. Root startup project: `node ./app.js`
 
 ```javascript
+// Replace the URL at this location in the code
 const REPLACE_URL =
   "https://www.bilibili.com/video/BV1Pf4y177Vp?seid=15249322987164438078";
 ```
