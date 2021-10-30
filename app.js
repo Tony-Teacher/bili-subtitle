@@ -46,16 +46,16 @@ function getAllCid() {
 function getSubtitleArr(arr) {
   let num = 0;
   arr.forEach(async (item, index) => {
-    await requestSubArr(item, index, index === arr.length - 1);
+    await requestSubArr(item, index);
     if (num === arr.length - 1) {
-      if (array.length) getSubtitleText();
-      else console.log("No subtitles found");
+      if (array.length) return getSubtitleText();
+      else return console.log("No subtitles found");
     }
     num++;
   });
 }
 /* subtitle array request */
-function requestSubArr(item, index, flag) {
+function requestSubArr(item, index) {
   return new Promise((resolve, reject) => {
     axios
       .get(
